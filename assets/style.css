@@ -1,0 +1,89 @@
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #ebebeb;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.container #robot {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transition: all 1s;
+    transform: rotate(0deg);
+    opacity: 0;
+}
+
+.container #robot i {
+    position: absolute;
+    top: 20px;
+    left: 24px;
+}
+
+.container .box {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    float: left;
+}
+
+.container .box.black {
+    background-color: #ddd;
+}
+
+.panel {
+    position: absolute;
+    left: 560px;
+    top: 10px;
+    padding: 20px;
+    background-color: #cccccc;
+    width: 200px;
+    height: 460px;
+    border-radius: 3px;
+}
+
+button {
+    border: 1px solid grey;
+}
+
+#place-panel {
+    margin-bottom: 10px;
+}
+
+#place-panel input {
+    height: 33px;
+    width: 119px;
+    margin-right: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 0;
+
+}
+
+#button-panel {
+    display: none;
+}
+
+#button-panel button {
+    width: 64px;
+}
+
+#location-panel {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ebebeb;
+}
+
+.panel-button {
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#messages {
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    display: none;
+}
